@@ -7,5 +7,22 @@ public class LKW extends Fahrzeug {
 		this.nutzlast = nutzlast;
 	}
 
-	public double getNutzlast() {return this.nutzlast;}
+	public double getLkwNutzlast() {return this.nutzlast;}
+	
+	public double rechnungsBetrag(int mietdauer) {
+		if(this.getLkwNutzlast() < 1800) {
+			return mietdauer * 50;
+		} else {
+			return mietdauer * 80;
+		}
+	}
+	
+	public boolean inspektionFällig() {
+		if(this.getKmTemp() >= 20000) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
 }

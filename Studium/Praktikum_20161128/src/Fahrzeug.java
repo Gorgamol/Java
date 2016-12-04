@@ -10,7 +10,6 @@ public abstract class Fahrzeug {
 		this.km = km;
 		this.kmTemp = kmTemp;
 		this.vermietet = vermietet;
-		System.out.println("Super()");
 	}
 
 	public String getKennzeichen(){return this.kennzeichen;}
@@ -18,5 +17,13 @@ public abstract class Fahrzeug {
 	public double getKmTemp(){return this.kmTemp;}
 	public boolean getVermietet(){return this.vermietet;}
 	
-	public abstract double getNutzlast();
+	public void updateKm(double km) {
+		this.km += km;
+		this.kmTemp += km;
+	}
+	
+	public abstract double rechnungsBetrag(int mietdauer);
+	public abstract boolean inspektionFällig();
+
+	
 }
