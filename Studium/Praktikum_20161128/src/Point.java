@@ -42,5 +42,6 @@ public class Point {
 		System.out.println("Distance: " + p1.distance(p2));
 
 	}
+
 }
 
