@@ -1,4 +1,4 @@
 
-public class Auszubildender {
+public class Auszubildender  extends Mitarbeiter {
 
 }

@@ -1,4 +1,4 @@
 
-public class Aushilfe {
+public class Aushilfe extends Mitarbeiter {
 
 }
