@@ -14,7 +14,13 @@ public abstract class Mitarbeiter {
 	public String getVorname() {return this.vorname;}
 	public int getGehalt() {return this.gehalt;}
 	
+	public boolean equals(Mitarbeiter ma) {
+		if(this.name == ma.getName() && this.vorname == ma.getVorname()) {
+			return true;
+		}
+		return false;
+	}
+		
+	
 	public abstract String toString();
-	public abstract boolean equals();
-
 }

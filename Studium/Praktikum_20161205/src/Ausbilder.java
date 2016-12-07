@@ -10,17 +10,16 @@ public class Ausbilder extends Mitarbeiter {
 		 this.urlaubstage = urlaubstage;
 	}
 	
+	public int getEinstellungsjahr() {return this.einstellungsjahr;}
+	public int urlaubstage() {return this.urlaubstage;}
+	
 	public String toString() {
 		String _s = this.getName() + " ";
 		_s += this.getVorname();
 		_s += ", Gehalt: " + this.getGehalt();
 		_s += ", Einstellungsjahr: " + this.einstellungsjahr;
 		_s += ", Urlaubstage: " + this.urlaubstage;
-		return "HIER_STRING";
+		return "Ausbilder";
 	}
 	
-	public boolean equals() {
-		return false; //ÄNDERN!! INSTANCEOF?? OBJECT
-	}
-
 }
