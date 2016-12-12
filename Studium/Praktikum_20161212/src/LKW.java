@@ -1,7 +1,6 @@
 
 public class LKW extends Fahrzeug{
-	private double nutzlast;
-	
+	private double nutzlast;	
 	
 	public LKW(String kennzeichen, double nutzlast) {
 		super(kennzeichen);

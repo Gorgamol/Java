@@ -12,11 +12,11 @@ public class Main {
 		hv.einfügen(angebot_1);
 		hv.einfügen(angebot_2);
 		hv.einfügen(angebot_3);
-		//hv.einfügen(angebot_4);
+		hv.einfügen(angebot_4);
 		
 		hv.listeAngebote();
 		
-		System.out.println(hv.günstig(50));
+		System.out.println(hv.günstig(8888888));
 
 	}
 
