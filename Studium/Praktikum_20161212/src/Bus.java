@@ -23,6 +23,6 @@ public class Bus extends Fahrzeug{
 	}
 
 	public String toString() {
-		return "LKW - [" + this.getKennzeichen() + "] | Nutzlast - [" + this.getSitzplätze() + "]";
+		return "Bus - [" + this.getKennzeichen() + "] | Nutzlast - [" + this.getSitzplätze() + "]";
 	}
 }
