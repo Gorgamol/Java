@@ -5,7 +5,5 @@ public class Main {
 		Fahrkartenautomat automat = new Fahrkartenautomat("Emden");
 		automat.erstelleTicket();
 		automat.druckeTicket();
-
 	}
-
 }
